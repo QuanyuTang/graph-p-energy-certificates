@@ -17,10 +17,9 @@ outward-rounded ball arithmetic.
 The repository is organized as follows.
 
 ```text
-path-energy-certificates/
+graph-p-energy-certificates/
 ├── README.md
 ├── LICENSE
-├── CITATION.cff
 ├── run_all.sh
 ├── core/
 │   ├── verify_path_splicing.sage
