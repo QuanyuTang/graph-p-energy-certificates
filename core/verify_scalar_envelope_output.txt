@@ -1,0 +1,1 @@
+All scalar Bernstein coefficient checks passed.

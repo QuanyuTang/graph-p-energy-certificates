@@ -33,9 +33,9 @@ graph-p-energy-certificates/
     └── verify_line_graph_output.txt
 ```
 
-The directory `paper1_core/` contains the scripts used in the proof of the
+The directory `core/` contains the scripts used in the proof of the
 main path-minimality theorem for adjacency $p$-energy.  The directory
-`paper2_applications/` contains the scripts used in the companion paper on
+`applications/` contains the scripts used in the companion paper on
 positive $p$-energies, Laplacian-type spectra, and line graphs.
 
 ## Requirements
@@ -77,16 +77,15 @@ The scripts can also be run individually.
 For the first paper, run
 
 ```bash
-sage paper1_core/path_splicing/verify_all.sage
-sage paper1_core/scalar_envelope/scalar_envelope_certificates.sage
-sage paper1_core/local_moment/local_moment_check.sage
+sage core/verify_path_splicing.sage
+sage core/verify_scalar_envelope.sage
+sage core/verify_local_moment.sage
 ```
 
 For the second paper, run
 
 ```bash
-sage paper2_applications/line_graph/line_graph_scalar_check.sage
+sage applications/verify_line_graph.sage
 ```
 
-The expected outputs are stored in the corresponding `output_logs/`
-directories.
+The expected outputs are stored as `*_output.txt` files next to each script.

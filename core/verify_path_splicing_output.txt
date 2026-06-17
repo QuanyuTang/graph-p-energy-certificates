@@ -1,0 +1,23 @@
+Checking strip certificates (D_p(rho) - C_*(1/49 + 1/(p+6)^2) >= 1e-4)...
+p=2: boxes=5, max_depth=3, margin-after-target>=0.2091836844141283218430
+p=3: boxes=9, max_depth=3, margin-after-target>=0.1756604797106717694729
+p=4: boxes=12, max_depth=3, margin-after-target>=0.002575662253562486996432
+p=5: boxes=13, max_depth=3, margin-after-target>=0.02292789726217865255910
+p=6: boxes=13, max_depth=4, margin-after-target>=0.01721408853350556955998
+Checking small-box certificates (K_{p,q}(rho) >= 1e-4)...
+p=2, q=2: boxes=6, max_depth=2, margin-after-target>=0.6508904537194193263616
+p=2, q=3: boxes=7, max_depth=2, margin-after-target>=0.6508904537194193263616
+p=2, q=4: boxes=8, max_depth=2, margin-after-target>=0.1397628182879857505511
+p=2, q=5: boxes=9, max_depth=2, margin-after-target>=0.1605815467508651960086
+p=2, q=6: boxes=11, max_depth=2, margin-after-target>=0.3478598236135151222984
+p=3, q=3: boxes=12, max_depth=2, margin-after-target>=0.1630188627846423176924
+p=3, q=4: boxes=14, max_depth=4, margin-after-target>=0.04679417034387588500977
+p=3, q=5: boxes=17, max_depth=2, margin-after-target>=0.03867331643307991465225
+p=3, q=6: boxes=19, max_depth=3, margin-after-target>=0.01218875666856765747070
+p=4, q=4: boxes=22, max_depth=4, margin-after-target>=0.02162922464482017427023
+p=4, q=5: boxes=24, max_depth=4, margin-after-target>=0.01281017241910717727167
+p=4, q=6: boxes=26, max_depth=4, margin-after-target>=0.01309793728482616588252
+p=5, q=5: boxes=26, max_depth=3, margin-after-target>=0.06549360929678128259141
+p=5, q=6: boxes=28, max_depth=3, margin-after-target>=0.2281424839653801320633
+p=6, q=6: boxes=30, max_depth=3, margin-after-target>=0.04313603171528256053184
+All finite path-splicing certificates passed.

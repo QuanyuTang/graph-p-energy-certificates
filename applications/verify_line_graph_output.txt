@@ -1,0 +1,1 @@
+All line-graph scalar and local-moment checks passed.
